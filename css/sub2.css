@@ -1,0 +1,247 @@
+@import url(reset.css);
+/* main css */
+/* common */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap');
+
+/* common */
+body{
+    position: relative; 
+    min-width: 280px;
+    width: 100%;
+    font-size:16px;
+    font-weight: 400px;
+    line-height:1.15; 
+    font-family: 'Noto Sans','Noto Sans KR', sans-serif;color: #13161d;
+}
+#wrap{  
+    width: 100%;
+    border: 1px solid blue;
+}
+h2{
+    font-size: 68px;
+    font-weight: 900;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #13161d;
+
+}
+/* //common */
+
+/* content1 */
+.content1{
+    width: 680px;
+    margin:220px auto;
+}
+.content1>h2{
+    text-align: center;
+}
+.content1>p{
+    font-size: 18px;
+    margin-top: 80px;
+}
+.content1>div{
+    position: relative;
+    height: 100px;
+    margin-top: 20px;
+    padding: 18px 30px;
+    border: 1px solid #d8d8d8;
+    line-height: 1.5;  
+}
+.content1>div>ul{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: -30px;
+}
+.content1>div>ul>button{
+    background-color: black;
+    color: white;
+    padding: 8.5px 19px;
+    float: right;
+    margin-top: -65px;
+} 
+.content1>.p2{
+    margin-top: 45px;
+}
+.content1>.div2>h3{
+    line-height: 100px;
+}
+.content1>.div2>button{
+    background-color: black;
+    color: white;
+    padding: 8.5px 19px;
+    float: right;
+    margin-top: -110px;
+}
+/* //content1 */
+
+/* fieldset */
+form{
+    background-color: #f7f7f7;
+    height: 1645px;
+    margin-top: -150px;
+}
+fieldset{
+    width: 680px;
+    margin: 0 auto;
+}
+legend{
+    display: block;
+    width: 680px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    line-height: 2.5;
+    padding-top: 70px;
+}
+fieldset>ol{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 2.5;
+}
+fieldset>ol>li select{
+    width: 50%;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+fieldset>ol>li input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    text-indent: 10px;    
+}
+fieldset>ol>li textarea{
+    width: 100%;
+    height: 165px;
+    margin: 10px 0;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+fieldset>ol>li>#category{
+    translate: -80px 50px;
+    margin: 30px 0;
+}
+fieldset>ol>li:nth-of-type(2){
+    margin-top: 40px;
+}
+fieldset>ol>li:nth-child(3)>input{
+    height: 165px;
+}
+fieldset>ol>li.attach>input[type="text"]{
+    width: 535px;
+    background-color: white;
+}
+.attach>li{
+    display: block;
+    position: absolute;
+    flex-direction: column;
+}
+.attach>label{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 50px;
+    text-align: center;
+}
+fieldset>ol>li.attach>input[type="file"]{
+    display: none;
+}
+.essential>div{
+    border-bottom: 2px solid black;
+}
+.essential>input{
+    display: inline-block;
+    border: 2px solid #62696C;
+    width: 20px;
+}
+.essential>label{
+    position: absolute;
+    display: inline-block;
+    margin: 15px 10px;
+    font-size: 15px;
+    color: #62696C;
+}
+.essential>textarea{
+    background-color: white;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 24px;   
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+.essential>.submit{
+    margin: 0 200px;
+    border-bottom: none;
+}
+.essential>.submit>button:nth-of-type(1){
+    border: 1px solid black;  
+    padding: 17.5px 39px ;
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+.essential>.submit>button:nth-of-type(2){
+    background-color: black;
+    color: white;
+    padding: 17.5px 39px ;
+    font-weight: 600;
+}
+/* content2 */
+.content2{
+    width: 1133px;
+    margin: 160px auto;
+    font-family: 'Noto Sans KR', sans-serif
+}
+.content2>h2{
+    text-align: center;
+}
+.content2>.tag{
+    display: flex;
+    justify-content: space-between;
+    width: 850px; 
+    margin: 60px auto; 
+   
+}
+.content2>.tag>li{ 
+    display: block;  
+    text-align: center;
+    margin-right:10px;
+}
+.content2>.tag>li>a{
+    display: inline-block;   
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    padding: 6.5px 19.5px;
+    background-color: white;
+    transition: background-color 0.4s ease-out 0s;  
+}
+.content2>.tag>li>a:hover{
+    background-color: black;
+    color: white;
+}
+.content2>ul>li>.Q{
+    display: block;
+    background: url(/images/Q_icon.png) no-repeat 0 50%;
+    padding: 30px 50px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+.content2>ul>li>.A{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
