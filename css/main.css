@@ -166,7 +166,7 @@ a{
 .top_r>form.srch{
     width: 24px;
     height: 24px;
-    background: url(/images/search-line_b.png) no-repeat 100% 50%;
+    background: url(images/search-line_b.png) no-repeat 100% 50%;
     margin-left: 810px;  
 }
 .top_r>form>fieldset{
@@ -186,7 +186,7 @@ a{
     position: absolute;    
     left: 0;
     top: 0;
-    background: url(/images/86107718qluc.jpg) no-repeat 0 0; 
+    background: url(images/86107718qluc.jpg) no-repeat 0 0; 
     width: 100%;
     height: 970px;
 }
@@ -200,20 +200,20 @@ a{
     height: 970px;
 }
 .content1>div:nth-of-type(1){ 
-    background: url(/images/82206490spen.jpg) no-repeat 0 0;
+    background: url(images/82206490spen.jpg) no-repeat 0 0;
     height: 970px;
 }
 .content1>div:nth-of-type(2){
-    background: url(/images/84733869prhh.jpg) no-repeat 0 0;
+    background: url(images/84733869prhh.jpg) no-repeat 0 0;
     margin-top: 1000;
     height: 970px;
     }
 .content1>div:nth-of-type(3){
-    background: url(/images/74436796wgdt.png) no-repeat 0 0;
+    background: url(images/74436796wgdt.png) no-repeat 0 0;
     height: 970px;   
     }
 .content1>div:nth-of-type(4){
-    background: url(/images/86362516ahty.jpg) no-repeat 0 0;
+    background: url(images/86362516ahty.jpg) no-repeat 0 0;
     height: 970px;   
     }
 .content1>div>p{
@@ -274,7 +274,7 @@ a{
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url(/images/add-fill.png) no-repeat 50% 50%;
+    background: url(images/add-fill.png) no-repeat 50% 50%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -424,7 +424,7 @@ a{
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url(/images/add-fill.png) no-repeat 50% 50%;
+    background: url(images/add-fill.png) no-repeat 50% 50%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -481,7 +481,7 @@ a{
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url(/images/add-fill.png) no-repeat 50% 50%;
+    background: url(images/add-fill.png) no-repeat 50% 50%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -541,7 +541,7 @@ a{
     overflow: hidden;
 }
 .content4>.c4_bg{   
-    background: url(/images/esg_slider_lg_01.jpg) no-repeat 0 0;
+    background: url(images/esg_slider_lg_01.jpg) no-repeat 0 0;
     width: 100%;
     height: 635px;
     color: white;
@@ -661,7 +661,7 @@ footer>.footer_left>.mall>li{
     position: relative;
     float: left; 
     padding-right: 20px;
-    background: url(/images/20221005_103113.png) no-repeat 100% 100%;
+    background: url(images/20221005_103113.png) no-repeat 100% 100%;
     margin-right: 20px;  
     
 }
@@ -709,7 +709,7 @@ footer>.footer_left>.sns>li{
 }
 footer>.footer_left>.sns>li>a{
     display: inline-block;
-    background: url(/images/sns.JPG) no-repeat 0 0;
+    background: url(images/sns.JPG) no-repeat 0 0;
     margin-top: -20px;
     text-indent: 100%;
     white-space: nowrap;
