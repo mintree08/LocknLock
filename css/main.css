@@ -150,7 +150,7 @@ a{
 .top_r>li{
     float: left;
     background-color: white;
-    background: url(images/arrow-down-s-line_b.png) no-repeat 100% 50%;
+    background: url(../images/arrow-down-s-line_b.png) no-repeat 100% 50%;
     background-position-x: 40px;
     background-size: 16px;
 
