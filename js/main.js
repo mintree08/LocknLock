@@ -1,37 +1,43 @@
 //main.js
-// 주메뉴
-const gnbMenu = document.querySelectorAll(".topmenu>li>ul");
-const header_wrap = document.querySelector(".header_wrap");
-
-for(var i=0; i<gnbMenu.length;i++){ 
-  gnbMenu[i].children[0].addEventListener('mouseover focus',(e) => {
-  e.currentTarget.classList.add('on'); 
-  var ht = e.currentTarget.children[1].offsetHeight; 
-  headerWrap.style.height = 50 + ht + 'px';
-});
 
 
-// title = "검색창 열기/닫기"
-const srch  = document.querySelectorAll('.srch>fieldset');
+//주메뉴 클릭
+const group = document.querySelectorAll(".header_wrap>header_inner>topmenu>li");
 
-srch[4].addEventListener('click', e => {
-  e.currentTarget.classList.toggle('on');
-  if (e.currentTarget.classList.contains('on')) {
-    e.currentTarget.children[0].setAttribute('title', '검색창 닫기');
-  } else {
-    e.currentTarget.children[0].setAttribute('title', '검색창 열기');
-  }
-});
-// 고객센터
-// toggle로 class on
-// title = "고객센터 열기/닫기"
-const top_rLI = document.querySelectorAll('.top_r>li');
+const About = document.querySelectorAll(".header_wrap>header_inner>topmenu>li>ul.About")
+const Learn = document.querySelectorAll("#header>.gnb>dl.Learn")
+const Gallery = document.querySelectorAll("#header>.gnb>dl.Gallery")
 
-top_rLI[4].addEventListener('click', (e) => {
-  e.currentTarget.classList.toggle('on');
-  if (e.currentTarget.classList.contains('on')) {
-    e.currentTarget.children[0].setAttribute('title', '고객센터 닫기');
-  } else {
-    e.currentTarget.children[0].setAttribute('title', '고객센터 열기');
-  }
-});
+
+for(let k=0;k<group.length;k++){
+    group[k].addEventListener('mouseover',e=>{
+        e.preventDefault();
+        group.forEach(item=>{
+            item.classList.remove('on');
+        });
+        e.currentTarget.classList.add('on');
+
+        let className = e.currentTarget.parentElement.getAttribute("class");
+        listAll.forEach(item => {
+            item.style.display = 'none';
+        });
+ 
+        switch(className){
+            case 'View' :
+                ent.forEach(item => {
+                    item.style.display = 'block';
+                });
+                break;
+            case 'Learn' :
+                ent.forEach(item => {
+                    item.style.display = 'block';
+                });
+                break;
+            case 'Gallery' :
+                shop.forEach(item => {
+                    item.style.display = 'block';
+                });
+                break;
+        }
+    })
+}
