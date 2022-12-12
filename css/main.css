@@ -260,14 +260,14 @@ video{display: none;}
     justify-content: flex-end;
     position: absolute;
     flex-wrap: wrap;
-    left: 94%;
+    left: 93%;
     width: 40px;
     height: 40px;
     background: url(../images/add-fill.png) no-repeat 50% 50%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: -100px;
     border: 1px solid black;
 }
 .content3>.banner{ 
@@ -415,7 +415,7 @@ video{display: none;}
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin-left: 90%;
+    margin-left: 89%;
     margin-top: -80px;
     border: 1px solid black;
 }
@@ -430,7 +430,7 @@ video{display: none;}
 }
 .content3_footer>.contact>.contact_bg>ul>li.q{
     position:absolute;
-    margin-left: 77%;
+    margin-left: 75%;
 }
 .content3_footer>.contact>.contact_bg>ul>li.q>a{
     width: 125px;
@@ -561,8 +561,8 @@ video{display: none;}
     flex: 1;
     flex-wrap: wrap;
     padding-top: 50px;
-    margin-left: 20px;
-    left: 0;
+    padding-right: 1rem;
+    box-sizing: border-box;
 }
 .content5>.sub_main>ul>h2{/* NOW */
     width: 100%;
@@ -760,7 +760,7 @@ footer>.site>li{
     position: absolute;
     display: inline-block;
     margin-top: -470px;
-    margin-left: 40%;
+    margin-left: 49%;
 }
 }
 /* Tablet 크기 720~1199*/
@@ -1025,8 +1025,8 @@ footer>.site>li{
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin-top: -50px;
     border: 1px solid black;
+    transform: translateY(-100px);
 }
 .content3>.banner{ 
     display: flex;
@@ -1440,8 +1440,6 @@ footer>.footer_left>.sns>li>a{
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-
-
 } 
 footer>.footer_left>.sns>li>a:nth-of-type(1){
     background-position: -5px 0;
@@ -1541,9 +1539,10 @@ footer>.site>li{
     display: none;
 }
 .top_button{
+    width: 100vw;
     position: absolute;
     display: inline-block;
-    margin-left: 63rem;
+    margin-left:70%;
 }
 }
 
@@ -2103,11 +2102,10 @@ footer>.site>li{
         position: relative;
         width: 1133px;
         height: 100px;
-        margin-top: 300px;
+        margin-top: 50px;
         display: flex;
         font-family: 'Noto Sans KR', sans-serif;
     }
-
     .c3_footer_bg>.career>span {
         display: inline-block;
         width: 40px;
@@ -2352,7 +2350,7 @@ footer>.site>li{
         margin: -15px;
         font-size: 30px;
     }
-
+/*PC  footer*/
     footer {
         position: relative;
         margin-top: 930px;
@@ -2438,52 +2436,36 @@ footer>.site>li{
         transform: scaleX(1);
     }
 
-    footer>.footer_left>.sns {
+    footer>.footer_left>.sns{
         margin-top: 60px;
         float: left;
     }
-
-    footer>.footer_left>.sns>li {
+    footer>.footer_left>.sns>li{
         float: left;
         margin-right: 10px;
     }
-
-    footer>.footer_left>.sns>li>a {
+    footer>.footer_left>.sns>li>a{
         display: inline-block;
-        background: url(../images/sns.JPG) no-repeat 0 0;
-        margin-top: -20px;
+        width: 40px;height: 40px;
+        padding: 13px 1px;
+        background: url(../images/sns.JPG) no-repeat 100% 100%;
+        object-fit: contain;
+        margin-top: -20px;margin-right: 5px;
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden;
-        margin-right: 5px;
+    } 
+    footer>.footer_left>.sns>li>a:nth-of-type(1){
+        background-position: -5px 0;
     }
-
-    footer>.footer_left>.sns>li>a:nth-of-type(1) {
-        width: 25px;
-        height: 25px;
-        padding: 13px 1px;
-        background-position: -10px 10px;
+    footer>.footer_left>.sns>li:nth-child(2)>a{
+        background-position: -55px 0;
     }
-
-    footer>.footer_left>.sns>li:nth-child(2)>a {
-        width: 28px;
-        height: 25px;
-        padding: 13px 1px;
-        background-position: -57px 10px;
+    footer>.footer_left>.sns>li:nth-child(3)>a{
+        background-position: -103px 0;
     }
-
-    footer>.footer_left>.sns>li:nth-child(3)>a {
-        width: 25px;
-        height: 25px;
-        padding: 13px 1px;
-        background-position: -110px 10px;
-    }
-
-    footer>.footer_left>.sns>li:nth-child(4)>a {
-        width: 25px;
-        height: 25px;
-        padding: 13px 1px;
-        background-position: -155px 10px;
+    footer>.footer_left>.sns>li:nth-child(4)>a{
+        background-position: -148px 0;
     }
 
     .footer_nav {
@@ -2588,10 +2570,9 @@ footer>.site>li{
     }
 
     .top_button {
-        display: inline-block;
-        float: right;
-        margin-right: 200px;
-        margin-top: -180px;
+        position: absolute;
+        right: 200px;
+        top: 70px;
     }
 }
 
